@@ -18,9 +18,9 @@ public class TransTest {
 		//doScan();
 		
 		//收银宝
-		//downTmk("67863219"); // 下载主密钥
+		downTmk("67863219"); // 下载主密钥
 		//sybLogon();
-		doSybSale(); //收银宝磁卡消费
+		//doSybSale(); //收银宝磁卡消费
 	}
 
 	public static void downTmk(String initPwd) {
